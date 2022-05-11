@@ -28,18 +28,28 @@
   right: 0;
  }
 /* 5. ABSOLUTE & TRANSFORM II */
+.exercice-absolute-transform-2 .container {
+  position: relative;
+}
+
 .exercice-absolute-transform-2 .block-red {
   position: absolute;
-  transform: translate(0%, 100px);
+  transform: translate(0%, -50%);
+  top: 50%;
 }
 .exercice-absolute-transform-2 .block-black {
-  position: relative;
-  transform: translate(50%, 100px);
+  position: absolute;
+  transform: translate(50%, -50%);
+  top:50%;
+  right: 50%
 }
 .exercice-absolute-transform-2 .block-blue {
-  position: relative;
-  transform: translate(100%, 100px);
+  position: absolute;
+  transform: translate(0%, -50%);
+  top: 50%;
+  right:0%;
 }
+
 
 /* 6. ALL-IN */
 .exercice-all-in .block-red {
