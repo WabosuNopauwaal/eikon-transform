@@ -11,7 +11,43 @@
   transform: scale(50%);
 }
 /* 4. ABSOLUTE & TRANSFORM */
+.exercice-absolute-transform .container {
+  position: relative;
+ }
 
+.exercice-absolute-transform .block-black {
+  position: absolute;
+  top:0;
+  right:50%;
+  transform: translate(50%);
+ }
+
+ .exercice-absolute-transform .block-blue {
+  position: absolute;
+  top:0;
+  right: 0;
+ }
 /* 5. ABSOLUTE & TRANSFORM II */
+.exercice-absolute-transform-2 .block-red {
+  position: absolute;
+  transform: translate(0%, 100px);
+}
+.exercice-absolute-transform-2 .block-black {
+  position: relative;
+  transform: translate(50%, 100px);
+}
+.exercice-absolute-transform-2 .block-blue {
+  position: relative;
+  transform: translate(100%, 100px);
+}
 
 /* 6. ALL-IN */
+.exercice-all-in .block-red {
+  transform: translate(0%, -100px) ;
+}
+.exercice-all-in .block-black {
+  transform: translate(50%, 50px) rotate(50%);
+}
+.exercice-all-in .block-blue {
+  transform: translate(-100%, 50px);
+}
